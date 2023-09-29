@@ -1,0 +1,25 @@
+li {
+  margin-right: 20px;
+}
+
+li a.nav-links {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+li a.nav-links:hover {
+  background-color: #ddd;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 500px) {
+  li {
+    padding: 10px;
+  }
+
+  li a.nav-links:hover {
+    background-color: grey;
+    border-radius: 4px;
+  }
+}
